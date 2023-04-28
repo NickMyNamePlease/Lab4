@@ -1,6 +1,6 @@
 import { graphql, buildSchema } from 'graphql';
 import express from 'express';
-import graphqlHTTP from 'express-graphql';
+import {graphqlHTTP} from 'express-graphql';
 let schema = buildSchema(`
 type Query {
 hello: String
